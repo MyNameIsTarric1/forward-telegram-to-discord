@@ -3,8 +3,8 @@ from telethon import TelegramClient
 from telethon.tl.functions.messages import GetForumTopics
 
 # 🔑 Inserisci le tue credenziali
-api_id = 26684927          # es. 123456
-api_hash = '13368988a8ad308561b8e55a8e976184'    # es. 'abcdef123456...'
+api_id = 11111          # es. 123456
+api_hash = ''    # es. 'abcdef123456...'
 
 # 🔁 Inserisci l'ID del supergruppo (es. -1001234567890)
 group_id = -1002637946764

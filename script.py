@@ -4,8 +4,8 @@ import asyncio
 import os
 
 # 🔑 Credenziali MTProto
-api_id =  26684927         # es. 123456
-api_hash = "13368988a8ad308561b8e55a8e976184"    # es. 'abcdef123456...'
+api_id =    111       # es. 123456
+api_hash = ""    # es. 'abcdef123456...'
 channel_username = 'Reapers Esports'  # es. 'ilFattoQuotidiano'
 channel_id = -1002637946764
 topic_ids = [3,4,5]
