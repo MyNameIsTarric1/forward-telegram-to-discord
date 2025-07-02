@@ -1,10 +1,11 @@
 from telethon import TelegramClient, events
 import requests
 import asyncio
+import secret
 
 # 🔑 Credenziali MTProto
-api_id =  1111          # es. 123456
-api_hash =  ""   # es. 'abcdef123456...'
+api_id = secret.api_id          # es. 123456
+api_hash = secret.api_hash   # es. 'abcdef123456...'
 channel_username = 'Reapers Esports'  # es. 'ilFattoQuotidiano'
 
 

@@ -1,10 +1,11 @@
 import asyncio
 from telethon import TelegramClient
 from telethon.tl.functions.messages import GetForumTopics
+import secret
 
 # 🔑 Inserisci le tue credenziali
-api_id = 11111          # es. 123456
-api_hash = ''    # es. 'abcdef123456...'
+api_id = secret.api_id          # es. 123456
+api_hash = secret.api_hash   # es. 'abcdef123456...'
 
 # 🔁 Inserisci l'ID del supergruppo (es. -1001234567890)
 group_id = -1002637946764
